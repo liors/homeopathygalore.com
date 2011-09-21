@@ -1,0 +1,28 @@
+!!!
+%html
+  %head
+    %title יעל גלור הומיאופתיה
+    %link{:rel => 'stylesheet', :href => 'css/style.css'}  
+  %body
+    %div#container
+      %div.topDiv
+        %a{:href => "/"}
+          %div.topLogo
+        %div.contact
+          %span הוברמן 20
+          %br
+          %span תל אביב
+          %br
+          %span 054-536-3393
+          %br
+          %a{:class =>"mail", :href =>"mailto:yayagalor@gmail.com"} yayagalor@gmail.com
+          %br
+      %div.phrase
+        %span.text "בריאות היא מצב של איזון אופטימלי-גופני, פסיכולוגי וחברתי
+        %br
+        %sapn.text ולא העדר סימפטומים גרידא." (ארגון הבריאות העולמי  WHO)
+      = yield
+    %footer.footer
+      %div.mezeg
+        %a{:href => "mailto:shefer.lior@gmail.com"}developed by mezeg productions
+      

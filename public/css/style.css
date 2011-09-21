@@ -1,0 +1,112 @@
+/* reset.css */
+html {height: 100%;margin:0;padding:0;border:0;}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}
+body {line-height:1.5;background:white;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:right;font-weight:normal;float:none !important;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+:focus {outline:0;}
+
+body{
+	font-family: Arial;
+	text-align: center;
+	height: 100%;;
+	direction: rtl;
+}
+
+#container {
+	width:975px;
+	text-align: right;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -101px; /* the bottom margin is the negative value of the footer's height */
+}
+.topDiv{
+	background: url(../img/top-banner-with-leaf.gif) no-repeat;
+	height:179px;
+	margin: 0 auto;
+}
+.footer{
+	background: url(../img/bottom-leaves.gif) no-repeat;
+	margin: 0 auto;
+	width:975px;
+	
+}
+.footer, .push {
+	height: 101px; /* .push must be the same height as .footer */
+}
+.topLogo{
+	background: url(../img/yeal-galor-header.png) no-repeat;
+	height:55px;
+	width:256px;
+	margin:30px 158px 0px 0px;
+	float:right;
+}
+.contact{
+	float:left;
+	padding:20px 0px 0px 120px;
+	color:#FFFFFF;
+	font-size:10pt;
+}
+.contact a{
+	color:#FFFFFF;
+}
+.phrase{
+	padding:0 175px 15px 0;
+}
+.text{
+	color:#cccc66;
+}
+#text {
+	padding-right:20px
+}
+.mezeg{
+	text-align: center;padding-top:70px;font-size: 12px;	
+}
+.mezeg a{
+	color:#7b7b1a;
+}
+.mail{
+	color:#cccc66;
+}
+.mail:HOVER{
+	text-decoration: underline;	
+}
+.mailMain{
+	color:#585844;
+}
+.mailMain:HOVER{
+	text-decoration: underline;	
+}
+
+.mainText{
+	color:#585844;
+	font-size: 13px;
+	padding-right:20px;
+	width:78%;
+	border-right-color: #cccc66;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+.nav{
+	padding:30px 40px 0 0;
+}
+.navDiv{
+	padding-top:10px;
+}
+.navDiv img{
+	cursor:pointer;
+}
+.lastNavDiv {
+	padding-top: 40px;
+}
+
+.mainContent{
+	float:left;
+	padding:60px 10px 40px 10px;
+	width:100%;
+}
