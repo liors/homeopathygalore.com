@@ -1,6 +1,12 @@
 require 'rubygems'
-require 'sinatra'
+require 'sinatra/base'
 require 'haml'
 require './main'
 
-run Sinatra::Application
+def app
+  MyModule::Controller
+end
+
+map "/" do
+  run MyModule::Controller
+end
